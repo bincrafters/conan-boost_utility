@@ -2,7 +2,7 @@
 
 [Conan.io](https://conan.io) package for [Boost.Utility](https://github.com/Boostorg/Utility) project
 
-The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/conan-public/Boost.Utility%3Abincrafters).
+The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/public-conan/Boost.Utility%3Abincrafters).
 
 ## For Users: Use this package
 
