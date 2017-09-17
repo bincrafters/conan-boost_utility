@@ -2,12 +2,12 @@ from conans import ConanFile
 
 class BoostUtilityConan(ConanFile):
     name = "Boost.Utility"
-    version = "1.64.0"
+    version = "1.65.1"
     short_paths = True
     url = "https://github.com/bincrafters/conan-boost-utility"
-    description = "Please visit http://www.boost.org/doc/libs/1_64_0/libs/libraries.htm"
+    description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
-    requires =  "Boost.Level5Group/1.64.0@bincrafters/testing"
+    requires =  "Boost.Level5Group/1.65.1@bincrafters/testing"
    
     def package_id(self):
         self.info.header_only()
