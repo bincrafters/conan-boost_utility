@@ -7,7 +7,7 @@ class BoostUtilityConan(ConanFile):
     url = "https://github.com/bincrafters/conan-boost-utility"
     description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
-    requires =  "Boost.Level5Group/1.65.1@bincrafters/stable"
+    requires =  "Boost.Level5Group/1.65.1@bincrafters/testing"
    
     def package_id(self):
         self.info.header_only()
