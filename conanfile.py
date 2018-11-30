@@ -4,7 +4,7 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.67.0@bincrafters/testing")
+base = python_requires("boost_base/1.68.0@bincrafters/testing")
 
 class BoostUtilityConan(base.BoostBaseConan):
     name = "boost_utility"
@@ -19,5 +19,3 @@ class BoostUtilityConan(base.BoostBaseConan):
         "boost_throw_exception",
         "boost_type_traits"
     ]
-
-
