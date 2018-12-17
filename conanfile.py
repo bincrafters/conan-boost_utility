@@ -4,7 +4,7 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.68.0@bincrafters/testing")
+base = python_requires("boost_base/1.69.0@bincrafters/testing")
 
 class BoostUtilityConan(base.BoostBaseConan):
     name = "boost_utility"
@@ -13,6 +13,7 @@ class BoostUtilityConan(base.BoostBaseConan):
     header_only_libs = ["utility"]
     b2_requires = [
         "boost_config",
+        "boost_container_hash",
         "boost_core",
         "boost_preprocessor",
         "boost_static_assert",
